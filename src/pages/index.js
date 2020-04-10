@@ -9,7 +9,7 @@ function Index() {
         <title>A Song of ZEIT and Cloudflare</title>
       </Helmet>
       <h1>A Song of ZEIT and Cloudflare</h1>
-      <h2>
+      <p>
         Deployed with{' '}
         <a
           href="https://zeit.co/docs"
@@ -18,7 +18,7 @@ function Index() {
         >
           ZEIT Now
         </a>
-        proxied by
+        proxied by{' '}
         <a
           href=""
           target="_blank"
@@ -27,7 +27,8 @@ function Index() {
           Cloudflare
         </a>
         !
-      </h2>
+      </p>
+    <img src="https://media.giphy.com/media/26FxHq5tZj6gtWKGs/giphy.gif" />
     </main>
   );
 }
