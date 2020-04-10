@@ -1,23 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/index.css';
 
 function Index() {
-  const [date, setDate] = useState(null);
-  useEffect(() => {
-    async function getDate() {
-      const res = await fetch('/api/date');
-      const newDate = await res.text();
-      setDate(newDate);
-    }
-    getDate();
-  }, []);
   return (
     <main>
       <Helmet>
-        <title>Gatsby + Node.js (TypeScript) API</title>
+        <title>A Song of ZEIT and Cloudflare</title>
       </Helmet>
-      <h1>Gatsby + Node.js (TypeScript) API</h1>
+      <h1>A Song of ZEIT and Cloudflare</h1>
       <h2>
         Deployed with{' '}
         <a
@@ -27,28 +18,16 @@ function Index() {
         >
           ZEIT Now
         </a>
-        !
-      </h2>
-      <p>
+        proxied by
         <a
-          href="https://github.com/zeit/now-examples/blob/master/gatsby-functions"
+          href=""
           target="_blank"
           rel="noreferrer noopener"
         >
-          This project
-        </a>{' '}
-        is a <a href="https://www.gatsbyjs.org/">Gatsby</a> app with two
-        directories, <code>/src</code> for static content and <code>/api</code>{' '}
-        which contains a serverless{' '}
-        <a href="https://nodejs.org/en/">Node.js (TypeScript)</a> function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Node.js (TypeScript)
+          Cloudflare
         </a>
-        .
-      </p>
-      <br />
-      <h2>The date according to Node.js (TypeScript) is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+        !
+      </h2>
     </main>
   );
 }
