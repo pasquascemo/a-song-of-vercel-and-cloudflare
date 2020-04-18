@@ -11,22 +11,22 @@ const Index = () =>(
       Deployed with{' '}
       <a
         href="https://zeit.co/docs"
-        target="_blank"
         rel="noreferrer noopener"
+        target="_blank"
       >
         ZEIT
       </a>
       {' '}and proxied by{' '}
       <a
         href=""
-        target="_blank"
         rel="noreferrer noopener"
+        target="_blank"
       >
         Cloudflare
       </a>
       !
     </p>
-  <img src="https://media.giphy.com/media/26FxHq5tZj6gtWKGs/giphy.gif" />
+    <img src="https://media.giphy.com/media/26FxHq5tZj6gtWKGs/giphy.gif" />
   </main>
 );
 
