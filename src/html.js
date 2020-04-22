@@ -31,7 +31,7 @@ export default function HTML(props) {
           key={`__analytics`}
           id="__analytics"
           dangerouslySetInnerHTML={{
-            __html: `window.fathom || document.write('<script src="https://swordfish.asongofzandc.xyz/core.js"><\/script>')`,
+            __html: `window.fathom || document.write('<script src="https://swordfish.asongofzandc.xyz/core.js" />')`,
           }}
         />
       </body>
