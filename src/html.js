@@ -21,7 +21,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script async defer data-domain="*.asongofzandc.xyz" src="https://varys.asongofzandc.xyz/js/index.js"></script>
+        <script async defer data-domain="asongofzandc.xyz" src="https://varys.asongofzandc.xyz/js/index.js"></script>
       </body>
     </html>
   )
