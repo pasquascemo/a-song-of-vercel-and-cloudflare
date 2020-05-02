@@ -4,17 +4,17 @@ import { Helmet } from 'react-helmet';
 const Index = () =>(
   <main>
     <Helmet>
-      <title>A Song of ZEIT and Cloudflare</title>
+      <title>A Song of Vercel and Cloudflare</title>
     </Helmet>
-    <h1>A Song of ZEIT and Cloudflare</h1>
+    <h1>A Song of Vercel and Cloudflare</h1>
     <p>
       Deployed with{' '}
       <a
-        href="https://zeit.co/docs"
+        href="https://vercel.com/docs"
         rel="noreferrer noopener"
         target="_blank"
       >
-        ZEIT
+        Vercel
       </a>
       {' '}and proxied by{' '}
       <a
