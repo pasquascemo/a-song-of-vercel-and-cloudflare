@@ -17,3 +17,4 @@ bravo cretino potresti aver appena preso un vairus
 	<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
 	<img src="https://media.giphy.com/media/26FxHq5tZj6gtWKGs/giphy.gif" />
 </main>
+</html>
