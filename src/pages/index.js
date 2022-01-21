@@ -28,6 +28,11 @@ const Index = () =>(
 		
     </p>
     <img src="https://media.giphy.com/media/26FxHq5tZj6gtWKGs/giphy.gif" />
+	    
+	    <p style="font-size: 20px; color:#1F9AFE;">
+<a href="prova.html">About this site</a>
+</p>
+	    
   </main>
 );
 
