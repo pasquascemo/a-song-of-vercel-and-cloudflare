@@ -21,13 +21,13 @@ bravo cretino potresti aver appena preso un vairus
 	
 	
 	 <p>
-      Deployed with{' '}
+      visita il nostro{' '}
       <a
-        href="https://vercel.com/docs"
+        href="https://commerce.pasquascemo.ml"
         rel="noreferrer noopener"
         target="_blank"
       >
-        Vercel
+        Shop
       </a>
       {' '}and proxied by{' '}
       <a
