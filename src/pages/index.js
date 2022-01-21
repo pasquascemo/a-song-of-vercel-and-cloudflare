@@ -29,9 +29,7 @@ const Index = () =>(
     </p>
     <img src="https://media.giphy.com/media/26FxHq5tZj6gtWKGs/giphy.gif" />
 	    
-	    <p style="font-size: 20px; color:#1F9AFE;">
-<a href="prova.html">About this site</a>
-</p>
+<a href="https://gifyu.com/image/SbioS"><img src="https://s10.gifyu.com/images/download5ca37eae2e5227a6.gif" alt="download5ca37eae2e5227a6.gif" border="0" /></a>
 	    
   </main>
 );
