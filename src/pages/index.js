@@ -16,9 +16,9 @@ const Index = () =>(
       >
         Shop
       </a>
-      E ricordati di donare il 5 per mille al {' '}
+      {' '}E ricordati di donare il 5 per mille al {' '}
       <a
-        href="www.scemo.org"
+        href="https://www.scemo.org"
         rel="noreferrer noopener"
         target="_blank"
       >
