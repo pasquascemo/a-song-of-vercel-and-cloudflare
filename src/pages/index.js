@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 const Index = () =>(
   <main>
     <Helmet>
-      <title>A Song of Vercel and Cloudflare</title>
+      <title>Pasqua sei veramente scemo</title>
     </Helmet>
     <h1>Pasqua sei veramente scemo</h1>
 	<p>
